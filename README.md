@@ -1,7 +1,7 @@
 ### DESCRIPTION
 	- A fast Hough Transform implementation, proposed by Vera et al. 
 
-### REQUISITOS
+### REQUIREMENTS
 	- Qt 5.5.0 or later;
 	- GCC 4.9.1 / MSVC 2013 or later; 
 
