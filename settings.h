@@ -5,7 +5,7 @@
 #include <limits>
 #include <sat.h>
 #include <dlib/geometry/vector.h>
-#include <QDir>
+#include "workspace_location.h"
 #define NONZERO 0.00001
 
 const double PI = acos(-1);
@@ -44,8 +44,8 @@ class hough_settings {
         hough_settings() {
 
             max_point_distance = 0.0;
-            input_filename = QDir::currentPath().toStdString() + "/input/cube.png";
-            output_filename = QDir::currentPath().toStdString() + "/output/output.png";
+            input_filename = WORKSPACE_LOCATION + "/input/cube.png";
+            output_filename = WORKSPACE_LOCATION + "/output/output.png";
             max_distance2plane = 150;
             s_t = .36;
             n_phi = 30;
