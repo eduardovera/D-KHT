@@ -1,0 +1,7 @@
+#ifndef WORKSPACE_LOCATION_H
+#define WORKSPACE_LOCATION_H
+#include <string>
+
+const std::string WORKSPACE_LOCATION = "@WORKSPACE_LOCATION@";
+
+#endif WORKSPACE_LOCATION_H
